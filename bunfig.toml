@@ -1,0 +1,12 @@
+[test]
+runner = "bun"
+
+[install]
+lockfile = true
+save-exact = true
+
+[dev]
+hot = true
+
+[build]
+target = "bun"

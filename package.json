@@ -1,0 +1,33 @@
+{
+	"name": "design-patterns-gof",
+	"version": "1.0.0",
+	"description": "Exemplos completos dos 23 padrões de projeto GoF em TypeScript",
+	"main": "src/index.ts",
+	"module": "src/index.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "bun run src/index.ts",
+		"test": "bun test",
+		"test:watch": "bun test --watch",
+		"build": "bun build src/index.ts --outdir ./dist",
+		"lint": "bun run tsc --noEmit"
+	},
+	"keywords": [
+		"design-patterns",
+		"gof",
+		"typescript",
+		"bun",
+		"software-engineering"
+	],
+	"author": "Luiz",
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "2.2.5",
+		"@types/bun": "latest",
+		"@vitest/ui": "^1.0.0",
+		"vitest": "^1.0.0"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
+}
